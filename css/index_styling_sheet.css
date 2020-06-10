@@ -4,36 +4,14 @@ html {
 
 body {
     content: "";
-    background-image: url(../images/electrician-1080573_1920.jpg);
+    background-image: url(../images/bulb-5258341_1920.jpg);
     background-repeat: no-repeat;
     opacity: 0.95;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-size: cover;
-    z-index: -1;
-}
-
-.TitleAndLogoDivision {
-    font-size: 24px;
-    text-align: center;
-    color: black;
-}
-
-.NavigationTableHomePage {
-    color: black;
-    text-align: center;
-    border: 1px solid black;
-    width: 100%;
-    border-collapse: separate;
-    padding:2px;
-}
-
-.NavigationTableHomePageTH {
-    border: 1px solid black;
-    border-collapse: separate;
-    font-size: 24px;
+    background-size: auto;
 }
 
 .circle {
@@ -49,18 +27,6 @@ body {
     -moz-transition:all 2s;
 }
 
-.lightpurple {
-    background-color:rgb(238, 168, 245);
-}
-
-.lightblue {
-    background-color: lightsteelblue;
-}
-
-.lightgreen {
-    background-color: lightgreen;
-}
-
 .belowPinkCircle {
     position: absolute;
     top: 450px;
@@ -73,19 +39,61 @@ body {
     left: 100px;
 }
 
+.EternalConstance {
+    background-image: linear-gradient(to bottom,  #09203f, #537895);
+}
+
 h1 {
     text-align: center;
     text-decoration: underline;
+    color: white;
 }
 
 .circle:hover {
-    height:200px;
+    display: inline-block;
+    height: 200px;
     width: 900px;
     border-radius: 0%;
 }
 
-p {
-
+.description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: white;
 }
 
+.description:hover {
+    text-align: left;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-image: linear-gradient(to bottom, #09203f, #537895);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 150%;
+    background-size: auto;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: rgb(4, 90, 4);
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: rgb(121, 118, 118);
+    color: white;
+}
 

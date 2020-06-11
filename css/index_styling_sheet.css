@@ -4,14 +4,12 @@ html {
 
 body {
     content: "";
-    background-image: url(../images/bulb-5258341_1920.jpg);
+    background-image: url(../images/index_background_images/blaz-erzetic-rP30_20fDpw-unsplash.jpg);
     background-repeat: no-repeat;
     opacity: 0.95;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-size: auto;
+    top: 0px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .circle {

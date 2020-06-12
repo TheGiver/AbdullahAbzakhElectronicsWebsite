@@ -1,0 +1,109 @@
+.sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: linear-gradient(to right,#000428,   #004e92);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 50px;
+    background-size: auto;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: rgb(4, 90, 4);
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: rgb(121, 118, 118);
+    color: white;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+.hpanel {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black
+}
+.leftpan {
+    left: -4%;
+    width: 55%;
+}
+.leftpan .background-img {
+    background-image: url(../images/products_and_services_images/young-engineer-checking-maintenance-of-solar-panels-4254168.jpg);
+    background-size: cover;
+    
+}
+.rightpan {
+    right: -4%;
+    width: 55%;
+}
+.rightpan .background-img {
+    background-image: url(../images/products_and_services_images/jeshoots-com-VdOO4_HFTWM-unsplash.jpg);
+    background-size: cover;
+}
+.background-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+
+}
+.content-area {
+    text-align: center;
+    margin: 20vh auto;
+    width: 350px;
+}
+.content-area h2 {
+    font-size: 3.0rem;
+    margin-bottom: 50px
+}
+.description {
+    opacity: 0;
+    transition: 0.5s ease;
+    transform: translate(-50%, -50%);
+}
+.description a {
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    position: relative;
+}
+.section:hover .background-img {
+    opacity: 0.4;
+}
+.section:hover .description {
+    opacity: 1;
+}

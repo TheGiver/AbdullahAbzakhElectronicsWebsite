@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Ubuntu';
+}
+
+h3 {
+    font-family: 'Ubuntu';
+    margin-top: 50px;
+}
+
+/***************************************************************************************/
+
+#titleSection {
+    background-color: rgb(197, 228, 238);
+}
+
+.navbar-brand {
+    font-size: 2.0rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.title-container {
+    /* Center the text in the division */
+    text-align: center;
+
+    /* Add space between this division and the navigation bar */
+    margin-top: 100px;
+}
+
+.title-container-cloud-icon-1 {
+    float: left;
+    margin-left: 50px;
+    height: 100px;
+}
+
+.title-container-cloud-icon-2 {
+    float: right;
+    margin-right: 50px;
+    height: 100px;
+}
+
+/***************************************************************************************/
+
+
+
+/***************************************************************************************/

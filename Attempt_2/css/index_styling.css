@@ -1,14 +1,23 @@
 body {
     text-align: center;
+    font-family: 'Montserrat';
 }
 
 h1 {
     font-family: 'Ubuntu';
+    font-weight: bold;
 }
 
 h3 {
     font-family: 'Ubuntu';
     margin-top: 50px;
+}
+
+/***************************************************************************************/
+
+.dotted-horizontal-break {
+    border-top: 6px dotted #bbbebe;
+    width: 100px;
 }
 
 /***************************************************************************************/
@@ -50,6 +59,37 @@ h3 {
 
 /***************************************************************************************/
 
+#companySection {
+    background-color: rgb(247, 232, 232);
+}
 
+.company-section-icon {
+    height: 200px;
+    width: 200px;
+}
+
+/***************************************************************************************/
+
+#teamSection {
+    text-align: left;
+}
+
+.team-section-partner-one {
+    float: left;
+    border-radius: 60%;
+    width: 300px;
+    height: 300px;
+}
+
+.team-section-partner-two {
+    float: left;
+    border-radius: 60%;
+    width: 300px;
+    height: 300px;
+}
+
+.personal-description {
+    font-family: 'Montserrat';
+}
 
 /***************************************************************************************/

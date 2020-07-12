@@ -18,6 +18,7 @@ h3 {
 .dotted-horizontal-break {
     border-top: 6px dotted #bbbebe;
     width: 100px;
+    margin: 5% auto;
 }
 
 /***************************************************************************************/
@@ -72,24 +73,56 @@ h3 {
 
 #teamSection {
     text-align: left;
+    text-align: justify;
+    background-color: azure;
 }
 
-.team-section-partner-one {
-    float: left;
-    border-radius: 60%;
-    width: 300px;
-    height: 300px;
+.team-section-header {
+    padding-top: 3%;
+    text-align: center;
 }
 
-.team-section-partner-two {
-    float: left;
-    border-radius: 60%;
-    width: 300px;
-    height: 300px;
+.team-row {
+    margin: 5% auto;    
+}
+
+.partner-image {
+    padding-bottom: 3%; 
+}
+
+.profile-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 5%;
 }
 
 .personal-description {
     font-family: 'Montserrat';
+    font-size: 1.6rem;
 }
 
 /***************************************************************************************/
+
+.contact-me-header {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.contact-me-paragraph {
+    font-family: 'Montserrat';
+}
+
+.row {
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 5% 10%;
+}
+
+.contact-div {
+    background-color: white;
+}

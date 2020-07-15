@@ -39,16 +39,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#titleSection">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About the Company</a>
+                            <a class="nav-link" href="#companySection">About the Company</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">The Team</a>
+                            <a class="nav-link" href="#teamSection">The Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#servicesSection">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactUsSection">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -134,84 +137,92 @@
         <hr>
 
         <!-- Services offered section -->
-        <section id="servicesSection"></section>
+        <section id="servicesSection">
+            <div>
+                <h1 class="services-section-title">Product Catalogue</h1>
+            </div>
+            <div>
+                <p>
+                We aim to provide our customers with the highest quality goods and services to ensure the ... 
+                </p>
+            </div>
+
+        </section>
 
         <hr>
 
         <!-- contact us section -->
         <section id="contactUsSection">
-            <!-- Add a contact me form -->
-            <div class="contact-me-container container">    
-                <!--add those to the class below mb-md-0 mb-5-->
-                <div class="contact-div col-md-12">
-                    <!-- Title -->
-                    <h2 class="contact-me-header">CONTACT FORM</h2>
+            <div class="container">
+                <form id="contactForm" action="" method="POST" role="form">
+                    <div class="contact-form-title col-sm-12">
+                        <h1>Contact Form</h1>
+                    </div>
 
-                    <form id="contact-form" name="contact-form" action="../php/mail.php" method="POST">
-                        
-                        <!--Grid row-->
-                        <div class="row">
-        
-                            <!--Grid column-->
+                    <!-- <div class="messages"></div> -->
+
+                    <div class="controls">
+
+                        <div class="contact-form-row row">
                             <div class="column col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label class="label-container" for="name" class="">Your Name</label>
-                                </div>
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
                             </div>
-                            <!--Grid column-->
-        
-                            <!--Grid column-->
+
                             <div class="column col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label class="label-container" for="email" class="">Your Email</label>
+                                <div class="form-group">
+                                    <label for="form_lastname">Lastname *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                    <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <!--Grid column-->
-        
                         </div>
-                        <!--Grid row-->
-        
-                        <!--Grid row-->
-                        <div class="row">
+
+                        <div class="contact-form-row row">
+                            <div class="column col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="column col-md-6">
+                                <div class="form-group">
+                                    <label for="form_need">Please specify your need *</label>
+                                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                        <option value=""></option>
+                                        <option value="Request quotation">Request quotation</option>
+                                        <option value="Request order status">Request order status</option>
+                                        <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-row row">
                             <div class="column col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label class="label-container" for="subject" class="">Subject</label>
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                        </div>
-                        <!--Grid row-->
-        
-                        <!--Grid row-->
-                        <div class="row">
-        
-                            <!--Grid column-->
                             <div class="column col-md-12">
-        
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label class="label-container" for="message">Your Message</label>
-                                </div>
-        
+                                <input type="submit" class="btn btn-success btn-send" value="Send message">
                             </div>
                         </div>
-
-                        <!--Grid row-->
-                        <div class="row">
-                            
-                            <!-- Grid column-->
-                            <div class="column col-sm-12">
-                                <!-- Send/Submit button  -->
-                                <a class="btn btn-primary btn-lg btn-block" onclick="document.getElementById('contact-form').submit();"> SEND </a>
-                                <div class="status"></div>
+                        <div class="contact-form-row row">
+                            <div class="column col-md-12">
+                                <p class="text-muted">
+                                    <strong>*</strong> These fields are required. Contact form template by
+                                    <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
                             </div>
-
                         </div>
-
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
         </section>
 

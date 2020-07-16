@@ -1,0 +1,43 @@
+Topic: Bug Report
+Date: 16-07-2020
+
+--------------------------------------------------------
+
+Bug #1:
+Details:
+I would like to fix the attribution section such that it is more visible to the viewer of
+the website. 
+ 
+Possible Approaches:
+One approach is to change the colour of the text.
+
+Status:
+Complete
+
+--------------------------------------------------------
+
+Bug #2:
+Details:
+I have noticed that when the user changes the size of the browser then the clouds at the 
+home section gets a bit messed up and lay on top of each other. I would like to keep the 
+clouds next to each other even if the users are on their phone.  
+
+Possible Approaches:
+* Try to check the column sizing.
+
+Status:
+Complete
+
+--------------------------------------------------------
+
+Bug #3:
+Details:
+I would like to prepare a slideshow that could be used to display the products offered by 
+the company. 
+
+Possible Approaches:
+* The only approach I could think of at the moment is to use the same trick I was taught 
+  in the Udemy courses. The slideshow is also known as a carousel.
+
+Status:
+In Progress

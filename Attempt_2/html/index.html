@@ -58,14 +58,23 @@
             </nav>
 
             <div class="title-container">
-                <!-- Add a cloud icon -->
-                <img src="../resources/Title_Section/cloud.png" alt="cloud icon" class="title-container-cloud-icon-1">
-                <img src="../resources/Title_Section/cloud.png" alt="cloud icon" class="title-container-cloud-icon-2">
+                <div class="row">
+                    <div class="col-sm-3">
+                         <!-- Add a cloud icon -->
+                        <img src="../resources/Title_Section/cloud.png" alt="cloud icon" class="title-container-cloud-icon-1">
+                    </div>
+                   
+                    <div class="col-sm-6">
+                        <!-- The company's name and moto -->
+                        <h1>Electrical Building Services</h1>
+                        <h3>The solution to all your electrical difficulties</h3>
+                    </div>
 
-                <!-- The company's name and moto -->
-                <h1>Electrical Building Services</h1>
-                <h3>The solution to all your electrical difficulties</h3>
-
+                    <div class="col-sm-3">
+                        <img src="../resources/Title_Section/cloud.png" alt="cloud icon" class="title-container-cloud-icon-2">
+                    </div>
+                </div>
+                
                 <!-- Add an electrical tower background image -->
                 <img src="../resources/Title_Section/electrical-tower.png" alt="electrical tower icon" class="title-container-tower-icon">
             </div>
@@ -141,10 +150,26 @@
             <div>
                 <h1 class="services-section-title">Product Catalogue</h1>
             </div>
+
             <div>
                 <p>
                 We aim to provide our customers with the highest quality goods and services to ensure the ... 
                 </p>
+            </div>
+
+            <div id="ProductCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#ProductCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#ProductCarousel" data-slide-to="1"></li>
+                    <li data-target="#ProductCarousel" data-slide-to="2"></li>
+                    <li data-target="#ProductCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="#" class="d-block " alt="">
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -216,9 +241,14 @@
                         </div>
                         <div class="contact-form-row row">
                             <div class="column col-md-12">
-                                <p class="text-muted">
+                                <p class="text-white">
                                     <strong>*</strong> These fields are required. Contact form template by
-                                    <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+                                    <a class="text-dark" href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.
+                                </p>
+                                <p class="text-white">
+                                    Icons made by <a class="text-dark" href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a class="text-dark" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -227,7 +257,4 @@
         </section>
 
     </body>
-
-    <!-- Add this attribute later -->
-    <!-- Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
 </html>

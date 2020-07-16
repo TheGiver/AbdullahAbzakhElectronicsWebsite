@@ -98,6 +98,18 @@ h3 {
     margin: 3% auto;
 }
 
+.products-offered-paragraph {
+    margin-bottom: 3%;
+}
+
+.carousel-control-prev {
+    margin-left: 4%;
+}
+
+.carousel-control-next {
+    margin-right: 4%;
+}
+
 /***************************************************************************************/
 
 .container {

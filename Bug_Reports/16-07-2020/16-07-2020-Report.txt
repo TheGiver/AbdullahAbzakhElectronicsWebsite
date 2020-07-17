@@ -40,4 +40,4 @@ Possible Approaches:
   in the Udemy courses. The slideshow is also known as a carousel.
 
 Status:
-In Progress
+Complete

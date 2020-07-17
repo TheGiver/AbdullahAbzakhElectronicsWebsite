@@ -94,12 +94,30 @@ h3 {
 
 /***************************************************************************************/
 
+#ProductCarousel {
+    text-align: center;
+}
+
 .services-section-title {
     margin: 3% auto;
 }
 
 .products-offered-paragraph {
     margin-bottom: 3%;
+}
+
+.carousel-indicators {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.carousel-inner .card {
+    margin: auto;
+    margin-bottom: 7%;
+}
+
+.card {
+    width: 20rem;
 }
 
 .carousel-control-prev {

@@ -1,0 +1,57 @@
+Topic: Bug Report
+Date: 17-07-2020
+
+--------------------------------------------------------
+
+Bug #1:
+Details:
+I would like to add some images that represents the products and services offered by the company and the 
+prices of the service.
+
+Possible Approaches:
+I would like to make use of the idea of cards in order to represent products, their description and their 
+prices. 
+
+Status:
+Complete
+
+--------------------------------------------------------
+
+Bug #2:
+Details:
+The next issue I would like to solve is to place the slide indicators under the card so that it is more visible
+to the users.
+
+Possible Approaches:
+I have previously multiple approaches but none yielded the desired result. 
+Therefore, I would like to search for a suitable approach online. 
+
+Status:
+Complete
+
+--------------------------------------------------------
+
+Bug #3:
+Details:
+I would like to increase the size of the indicators for the viewer to see them more properly.
+
+Possible Approaches:
+I do not know how to fix this yet, therefore I am going to search for a solution online.
+
+Status:
+Complete | Decided not to change this feature
+
+
+--------------------------------------------------------
+
+Bug #4:
+Details:
+I have noticed that as the screen size decreases, the carousel's indicators disappears as the 
+card lands on top of the carousel.
+
+Possible Approaches:
+I do not have a clear idea on how to fix this, but I am going to try few things that might make
+the carousel more adaptable and responsive.
+
+Status:
+Complete | All I had to do was manipulate the padding of certain elements

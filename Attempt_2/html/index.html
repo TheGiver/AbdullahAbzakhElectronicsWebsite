@@ -164,6 +164,7 @@
                     <li data-target="#ProductCarousel" data-slide-to="1"></li>
                     <li data-target="#ProductCarousel" data-slide-to="2"></li>
                     <li data-target="#ProductCarousel" data-slide-to="3"></li>
+                    <li data-target="#ProductCarousel" data-slide-to="4"></li>
                 </ol>
                 
                 <!-- Product Catalogue -->
@@ -173,9 +174,9 @@
                         <div class="card">
                             <img src="../resources/Services_Section/blaz-erzetic-rP30_20fDpw-unsplash.jpg" class="card-img-top" alt="First Slide">
                             <div class="card-body">
-                                <h5 class="card-title">Title</h5>
+                                <h5 class="card-title">Cable and Electrical Maintainance</h5>
                                 <p class="card-text">Random Text Generator asdahsdaskdawdashdwdasdwa</p>
-                                <a href="#" class="btn btn-primary">Request Service</a>
+                                <button type="button" data-toggle="modal" data-target="serviceModal" class="btn btn-primary">Request Service (0.00 JOD)</button>
                             </div>
                         </div>
                     </div>
@@ -183,11 +184,11 @@
                     <!-- Item Two -->
                     <div class="carousel-item">
                         <div class="card">
-                            <img src="../resources/none" class="card-img-top" alt="Second Slide">
+                            <img src="../resources/Services_Section/extension-cables.jpg" class="card-img-top" alt="Second Slide">
                             <div class="card-body">
-                                <h5 class="card-title">Title</h5>
+                                <h5 class="card-title">Extension Cables</h5>
                                 <p class="card-text">Random Text Generator asdahsdaskdawdashdwdasdwa</p>
-                                <a href="#" class="btn btn-primary">Request Service</a>
+                                <a href="#" class="btn btn-primary">Request Service (0.00 JOD)</a>
                             </div>
                         </div>
                     </div>
@@ -195,11 +196,11 @@
                     <!-- Item Three -->
                     <div class="carousel-item">
                         <div class="card">
-                            <img src="../resources/none" class="card-img-top" alt="Third Slide">
+                            <img src="../resources/Services_Section/fuse-box.jpg" class="card-img-top" alt="Third Slide">
                             <div class="card-body">
-                                <h5 class="card-title">Title</h5>
+                                <h5 class="card-title">Fuse Box Set-up and Repair</h5>
                                 <p class="card-text">Random Text Generator asdahsdaskdawdashdwdasdwa</p>
-                                <a href="#" class="btn btn-primary">Request Service</a>
+                                <a href="#" class="btn btn-primary">Request Service (0.00 JOD)</a>
                             </div>
                         </div>
                     </div>
@@ -207,11 +208,54 @@
                     <!-- Item Four -->
                     <div class="carousel-item">
                         <div class="card">
-                            <img src="../resources/none" class="card-img-top" alt="Fourth Slide">
+                            <img src="../resources/Services_Section/led-bulb.jpg" class="card-img-top" alt="Fourth Slide">
                             <div class="card-body">
-                                <h5 class="card-title">Title</h5>
+                                <h5 class="card-title">LED Lightbulbs</h5>
                                 <p class="card-text">Random Text Generator asdahsdaskdawdashdwdasdwa</p>
-                                <a href="#" class="btn btn-primary">Request Service</a>
+                                <a href="#" class="btn btn-primary">Request Service (0.00 JOD)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item Five -->
+                    <div class="carousel-item">
+                        <div class="card">
+                            <img src="../resources/Services_Section/light-bulb.jpg" class="card-img-top" alt="Fifth Slide">
+                            <div class="card-body">
+                                <h5 class="card-title">Lightbulbs</h5>
+                                <p class="card-text">Random Text Generator asdahsdaskdawdashdwdasdwa</p>
+                                <a href="#" class="btn btn-primary">Request Service (0.00 JOD)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 
+                    Adding a modal for the user to request the service from the owner. This is temporary as the 
+                    plan is for all requests to go through either a mail system or a custom designed request system.
+                    -->
+                    <div class="modal fade" id="serviceModal" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="serviceModalLabel"> Request A Service </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                                <!-- Modal Body -->
+                                <div class="modal-body">
+                                    <p>    
+                                    We apologise for the inconvenience... To place an order or book a service please 
+                                    dial the following number: ...
+                                    </p>
+                                </div>
+
+                                <!-- Modal Footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>

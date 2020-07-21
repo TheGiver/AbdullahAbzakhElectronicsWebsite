@@ -1,0 +1,31 @@
+Topic: Bug Report
+Date: 21-07-2020
+
+--------------------------------------------------------
+
+Bug #1:
+Details:
+I would like to add an alert box when the user clicks on the request service button. 
+
+Possible Approaches:
+I am unaware on how to approach this but I am currently investigating the most appropriate way
+to do so. 
+
+Status:
+Complete
+
+--------------------------------------------------------
+
+Bug #2:
+Details:
+I would like to fix the send button in the contact form such that it informs the user that the 
+form cannot be used but is currently being developed.
+
+Possible Approaches:
+I am going to use the same approach I used in the first bug report which involves the use of a 
+modal. 
+
+Status:
+Complete
+
+--------------------------------------------------------
